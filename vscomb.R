@@ -1,10 +1,11 @@
+# Based on https://github.com/wwrechard/screening
 library(splines)
 library(MASS)
 library(Boruta)
 
 library(glmnet)
 
-setwd("E:/中南云盘/王洪(数学与统计学院)/workingpapers/vscomb/code/results/real")
+setwd("F:/workingpapers/vscomb/code/results/real")
 ##
 
 auc<- function(outcome, proba){
